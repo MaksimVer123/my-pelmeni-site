@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Світ Пельменів</title>
+<style>
+	body{
+margin: 0;
+font-family: Arial, sans-serif;
+	}
+header, footer{
+background-color: #d35400;
+color: white;
+padding: 20px;
+text-align: center;
+}
+naw{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+naw a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.hero{
+background-color: #f6ddcc;
+padding: 60px 20px;
+text-align: center;
+}
+.hero img{
+	max-width: 300px;
+	margin-top: 20px;
+}
+.cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding: 40px 20px;
+background-color: #fdf2e9;
+}
+.card{
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: 250px;
+	padding: 20px;
+	text-align: center;
+}
+.card img{
+	width: 100%;
+	border-radius: 6px;
+}
+.form-block{
+	padding: 40px 20px;
+	background-color: #f6ddcc;
+	text-align: center;
+}
+form{
+	display: inline-block;
+	text-align: left;
+}
+form input, form textarea{
+	width: 300px;
+	margin: 10px 0;
+	padding: 10px;
+}
+form button{
+	padding: 10px 20px;
+	background-color: #d35400;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <header>
+  	<nav>
+  	<a href="#hero">Головна</a>
+  	<a href="#cards">Пельмені</a>
+  	<a href="#form">Зв"язок</a>
+    </nav>
+  </header>
+<section class="hero" id="hero">
+	<h1>Ласкаво просимо в світ пельменів!</h1>
+	<p>Тут ви знайдете найсмачніші рецепти та сорти Пельменів.</p>
+	<img src="images/hero-pelmeni.jpg" alt="oops your internet connection is down, please check the connection">
+</section>
+<section class="cards" id="cards">
+	<div class="card">
+		<h3>Класичні пельмені</h3>
+		<img src="https://st.depositphotos.com/1434090/3582/i/450/depositphotos_35820303-stock-photo-dumplings-and-parsley-russian-pelmeni.jpg" alt="oops your internet connection is down, please check the connection">
+		<p>Найпопулярніші з м"ясом та цибулею.</p>	
+	</div>
+	<div class="card">
+		<h3>Пельмені з грибами</h3>
+		<img src="https://img1.russianfood.com/dycontent/images_upl/642/big_641675.jpg" alt="oops your internet connection is down, please check the connection">
+		<p>Альтернатива для вегетеріанців.</p>	
+	</div>
+<div class="card">
+		<h3>Сибірські пельмені</h3>
+		<img src="https://images.gastronom.ru/V4zZG_ir7Okv7veDhVSRhoJV5zFm7a2LbGQszKEGpKw/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzJmNjgyNTIwLTBlYmItNGVjOC1iNTUzLWNmYTNlMmNjNTA0Ni5qcGc" alt="oops your internet connection is down, please check the connection">
+		<p>Традиційний сибірський смак.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені від Шеф-Повара</h3>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-IEoYN3clrkT31n5t59HpKYvoFGdPkf9aQ&s" alt="oops your internet connection is down, please check the connection">
+		<p>Найсмачніші, найбільші та найкрасивіші, основна оголомшливість на те що вони з (криветками).</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені з яблуком</h3>
+		<img src="https://klopotenko.com/wp-content/uploads/2020/08/pelmeni-zi-svynynou_sitewebukr.jpg?v=1626815714" alt="oops your internet connection is down, please check the connection">
+		<p>Найсмачніші, найніжніші.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені з помідорами</h3>
+		<img src="https://static.1000.menu/img/content-v2/b7/5a/45078/pelmeni-s-pomidorami-na-skovorode_1586195767_5_max.jpg" alt="oops your internet connection is down, please check the connection">
+		<p>Смачні, соковиті.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені з салатом</h3>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_LEd1EP3UnqslyQRwOk_RA6CGJhTd9tq7w&s" alt="oops your internet connection is down, please check the connection">
+		<p>Саме для тих, хто хоче спробувати щось нове.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені з морепродуктами</h3>
+		<img src="https://img1.russianfood.com/dycontent/images_upl/789/big_788975.jpg" alt="oops your internet connection is down, please check the connection">
+		<p>Новинка, відчуваєш запах моря?.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені з сиром</h3>
+		<img src="https://food.net.ua/uploads/posts/2023-07/pelmeni-jarenye-s-syrom-na-skovorode_1632645927_9_max.jpg" alt="oops your internet connection is down, please check the connection">
+		<p>Саме для фанатів сиру.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені жарені</h3>
+		<img src="https://novyny.live/cdn-cgi/imagedelivery/4_JwVYxosZqzJ7gIDJgTLA/0c1dbbc8-bc4a-4c59-6400-7535d0cde900/16x9" alt="oops your internet connection is down, please check the connection">
+		<p>Мало, що смачні! Так ще й хрумтять.</p>	
+	</div>
+<div class="card">
+		<h3>Пельмені з жареною ковбаскою</h3>
+		<img src="https://myasnuyray.com.ua/wp-content/uploads/2018/08/1.jpg" alt="oops your internet connection is down, please check the connection">
+		<p>Новинка! Хочеш спробувати так давай! Все в твоїх руках.</p>	
+	</div>
+
+
+
+
+
+
+
+
+</section>
+<section class="form-block" id="form">
+	<h2></h2>
+	<form>
+		<label>Ім"я</label><br>
+<input type="text" name="name" required><br>
+<label>Ваша електронна скринька</label><br>
+<input type="email" name="email" required><br>
+<label>Повідомлення</label><br>
+<textarea name="message" rows="4" required></textarea><br>
+<button type="submit">Надіслати</button>
+</form>
+</section>
+<flooter>
+	<nav>
+		<a href="#hero">Головна</a>
+<a href="#cards">Пельмені</a>
+<a href="#form">Зв"язок</a>
+</nav>
+<p>2025 Світ пельменів. Усі права захищено!</p>
+</flooter>
+</body>
+</html>
